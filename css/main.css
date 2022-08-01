@@ -270,7 +270,8 @@ body {
 
         font-family: 'Inter', sans-serif;
         width: 90% !important;
-
+        padding-top: 8rem !important; 
+        padding-bottom: 8rem !important ;
         text-align: center !important;
 
     }
