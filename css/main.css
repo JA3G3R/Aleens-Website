@@ -344,7 +344,7 @@ body {
     .arrow-link-text {
 
         font-family: 'Major Mono Display', sans-serif;
-        font-size: 2.5vw;
+        font-size: 1.5rem;
         position:absolute !important;
         padding-top: 1.4rem !important;
         width: 100% !important;
