@@ -25,8 +25,8 @@
 
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <button class="navbar-toggler ms-3 shadow-none type=" button" data-bs-toggle="collapse"
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <button class="navbar-toggler ms-3 shadow-none type=button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation" id="NavToggler">
             <span class="navbar-toggler-icon"></span>
@@ -46,7 +46,7 @@
                     <a class="nav-link active navbar-text" href="#">My Journey</a>
                 </li>
                 <li class="nav-item mx-3">
-                    <a class="nav-link active navbar-text" href="#">Live Speech</a>
+                    <a class="nav-link active navbar-text" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item mx-3">
                     <a class="nav-link active navbar-text" href="#">My Books</a>
@@ -56,13 +56,16 @@
                 </li>
 
             </ul>
+            
         </div>
+
+        <div id="barDiv" class="container w-75 border border-bottom border-5 mx-auto text-center mb-5 " style="position: absolute !important; left:0;right:0;top:0 !important;border-top:none !important;"></div>
+
 
     </nav>
 
-    <div id="barDiv" class="container w-75 border-bottom mx-auto text-center mb-5"></div>
 
-    <div id="carouselSlides" class="carousel slide" data-bs-ride="carousel" data-interval="1000">
+    <div id="carouselSlides" class="carousel slide" data-bs-ride="carousel"  data-interval="1000">
 
         <div class="carousel-indicators btn-container">
             <button type="button" data-bs-target="#carouselSlides" data-bs-slide-to="0"
@@ -142,8 +145,8 @@
 
     </div>
 
-    <div class="d-block desc-container position-relative bg-light">
-        <div class="d-block mx-auto desc">
+    <div class="d-flex desc-container bg-light">
+        <div class="mx-auto desc">
             I motivate people to Transform their setbacks into superpowers. I motivate people to Transform their
             setbacks into superpowers. I motivate people to Transform their setbacks into superpowers. I motivate people
             to Transform their setbacks into superpowers. I motivate people to Transform their setbacks into
@@ -163,13 +166,26 @@
             </div>
         </div>
 
-
     </div>
 
-    <div class="d-block position-relative books-section-container">
-        <div class="position-absolute books-container-left"></div>
-        <div class="container position-absolute books-container-center"></div>
-        <div class="container position-absolute books-container-right"></div>
+    <div class="books-section">
+
+        <div class="d-block position-relative books-section-container">
+            <div class=" books-container-left">
+
+                <img src="images/index-book-1.png" alt="More than 100 Pages Book by Aleen Bharati" class="index-book-1">
+            </div>
+            
+            <div class=" books-container-right">
+                <img src="images/index-book-2.png" alt="Book by Aleen Bharati" class="index-book-2">
+            </div>
+
+            <div class=" books-container-center border border-dark">
+                <div class="books-container-center-text">
+                    Books By Me
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
