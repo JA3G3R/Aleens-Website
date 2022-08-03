@@ -608,8 +608,8 @@ body {
     .books-container-left {
         position: absolute;
         height: 16rem;
-        width: 50%;
-        left: -2rem;
+        width: 40%;
+        left: -1rem;
         top: -2rem;
         background-color: #F8D5F6;
 
@@ -619,7 +619,7 @@ body {
         position: absolute;
         display:flex;
         background-color: #F8D5F6;
-        width: 115%;
+        width: 100vw;
         height: 17rem;
         top: 4rem;
         left: -8%;
@@ -640,9 +640,9 @@ body {
     .books-container-right {
         position: absolute;
         height: 16rem;
-        width: 50%;
+        width: 40%;
         top: -2rem;
-        right: -2rem;
+        right: -1rem;
         background-color: #F8D5F6;
     }
 
