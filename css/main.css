@@ -32,6 +32,7 @@ body {
 
 @media screen and (min-width: 850px) {
 
+
     .arrow-link {
 
         background-color: #F8D5F6 !important;
@@ -51,7 +52,7 @@ body {
 
     }
 
-    .arrow-link-container { 
+    .arrow-link-container {
         padding-top: 4rem !important;
         height: 15rem !important;
     }
@@ -60,7 +61,7 @@ body {
 
         font-family: 'Major Mono Display', sans-serif;
         font-size: 2vw;
-        position:absolute !important;
+        position: absolute !important;
         padding-top: 1.4rem !important;
         width: 100% !important;
     }
@@ -90,10 +91,16 @@ body {
 
     }
 
+    .carousel {
+
+        margin-top: 8rem !important;
+
+    }
+
     .carousel-item {
 
         margin-top: 0rem !important;
-        margin-bottom: 10rem !important;
+        margin-bottom: 12rem !important;
         height: 20rem !important;
 
     }
@@ -107,13 +114,16 @@ body {
     }
 
     .desc {
-        position: absolute;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
         font-family: 'Inter', sans-serif;
         width: 80%;
-        left: 0;
-        right: 0;
-        padding-top: 6%;
-        padding-bottom: 8%;
         margin: auto !important;
         text-align: center !important;
 
@@ -162,24 +172,82 @@ body {
 
     }
 
-    .books-section-container {
-        padding:0 !important;
+    .books-section {
+        padding: 0 !important;
         margin: 0 !important;
-        height: 35rem !important;
+        height: 40rem !important;
         width: 100% !important;
-        background-color: grey !important;
     }
 
-    .books-container-left{
-        height: 8rem;
-        width: 8rem;
-        left:8rem ;
-        background-color: pink;
+    .books-section-container {
+        height: 30rem !important;
+        position: relative;
+        width: 30rem;
+        margin: auto;
+        top: 5rem !important;
+    }
+
+    .books-container-left {
+        position: absolute;
+        height: 16rem;
+        width: 15rem;
+        left: -2rem;
+        top: -2rem;
+        background-color: #F8D5F6;
+
     }
 
     .books-container-center {
+        position: absolute;
+        display:flex;
+        background-color: #F8D5F6;
+        width: 10rem;
+        height: 10rem;
+        top: 10rem;
+        left: 10rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     }
+
+    .books-container-center-text {
+        font-size: 1.5rem;
+        display: flex;
+        margin: 0 auto;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .books-container-right {
+        position: absolute;
+        height: 16rem;
+        width: 15rem;
+        bottom: -2rem;
+        right: -2rem;
+        background-color: #F8D5F6;
+    }
+
+    .index-book-1 {
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom:0;
+        margin: 0 auto !important;
+        width: 80% !important;
+    }
+
+    .index-book-2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto !important;
+        width: 80% !important;
+    }
+
+
 
 }
 
@@ -212,7 +280,7 @@ body {
 
     .carousel-item {
 
-        margin-top: 0rem !important;
+        margin-top: 8rem !important;
         margin-bottom: 10rem !important;
         height: 20rem !important;
 
@@ -245,7 +313,7 @@ body {
 
     }
 
-    .arrow-link-container { 
+    .arrow-link-container {
         padding-top: 4rem !important;
         height: 15rem !important;
     }
@@ -254,7 +322,7 @@ body {
 
         font-family: 'Major Mono Display', sans-serif;
         font-size: 2.5vw;
-        position:absolute !important;
+        position: absolute !important;
         padding-top: 1.4rem !important;
         width: 100% !important;
     }
@@ -266,11 +334,17 @@ body {
     }
 
     .desc {
-
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
         font-family: 'Inter', sans-serif;
-        width: 90% !important;
-        padding-top: 8rem !important; 
-        padding-bottom: 8rem !important ;
+        width: 80%;
+        margin: auto !important;
         text-align: center !important;
 
     }
@@ -313,6 +387,82 @@ body {
 
     }
 
+    .books-section {
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 30rem !important;
+        width: 100% !important;
+    }
+
+    .books-section-container {
+        height: 20rem !important;
+        position: relative;
+        width: 30rem;
+        margin: auto;
+        top: 5rem !important;
+    }
+
+    .books-container-left {
+        position: absolute;
+        height: 16rem;
+        width: 15rem;
+        left: -2rem;
+        top: -2rem;
+        background-color: #F8D5F6;
+
+    }
+
+    .books-container-center {
+        position: absolute;
+        display:flex;
+        background-color: #F8D5F6;
+        width: 115%;
+        height: 17rem;
+        top: 4rem;
+        left: -8%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .books-container-center-text {
+        font-size: 1.5rem;
+        display: flex;
+        margin: 0 auto;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .books-container-right {
+        position: absolute;
+        height: 16rem;
+        width: 15rem;
+        top: -2rem;
+        right: -2rem;
+        background-color: #F8D5F6;
+    }
+
+    .index-book-1 {
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom:0;
+        margin: 0 auto !important;
+        width: 80% !important;
+    }
+
+    .index-book-2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto !important;
+        width: 80% !important;
+    }
+
+
 }
 
 @media screen and (max-width: 620px) {
@@ -336,7 +486,7 @@ body {
 
     }
 
-    .arrow-link-container { 
+    .arrow-link-container {
         padding-top: 4rem !important;
         height: 15rem !important;
     }
@@ -344,8 +494,8 @@ body {
     .arrow-link-text {
 
         font-family: 'Major Mono Display', sans-serif;
-        font-size: 1.5rem;
-        position:absolute !important;
+        font-size: 2.5vw;
+        position: absolute !important;
         padding-top: 1.4rem !important;
         width: 100% !important;
     }
@@ -373,7 +523,7 @@ body {
     .carousel-item {
 
         padding-top: 0 auto 0 auto !important;
-        margin-top: 3rem !important;
+        margin-top: 5rem !important;
         height: 23rem !important;
     }
 
@@ -399,7 +549,6 @@ body {
     }
 
     .desc {
-        padding-top: 3rem !important;
         font-family: 'Inter', sans-serif;
         font-size: 0.8rem;
         width: 100%;
@@ -429,7 +578,7 @@ body {
     }
 
     .subheading {
-        
+
         width: 100% !important;
         font-family: 'La Belle Aurore', sans-serif;
         font-size: 1.5rem;
@@ -438,6 +587,82 @@ body {
         line-height: 5rem;
         text-align: center !important;
 
+    }
+
+    
+    .books-section {
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 30rem !important;
+        width: 100% !important;
+    }
+
+    .books-section-container {
+        height: 20rem !important;
+        position: relative;
+        width: 80%;
+        margin: auto;
+        top: 5rem !important;
+    }
+
+    .books-container-left {
+        position: absolute;
+        height: 16rem;
+        width: 50%;
+        left: -2rem;
+        top: -2rem;
+        background-color: #F8D5F6;
+
+    }
+
+    .books-container-center {
+        position: absolute;
+        display:flex;
+        background-color: #F8D5F6;
+        width: 115%;
+        height: 17rem;
+        top: 4rem;
+        left: -8%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .books-container-center-text {
+        font-size: 1.5rem;
+        display: flex;
+        margin: 0 auto;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .books-container-right {
+        position: absolute;
+        height: 16rem;
+        width: 50%;
+        top: -2rem;
+        right: -2rem;
+        background-color: #F8D5F6;
+    }
+
+    .index-book-1 {
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom:0;
+        margin: 0 auto !important;
+        width: 80% !important;
+    }
+
+    .index-book-2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto !important;
+        width: 80% !important;
     }
 
 }
